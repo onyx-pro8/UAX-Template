@@ -16,7 +16,7 @@ export const FAQ = () => {
     };
 
     return (
-        <div className='flex flex-col container mx-auto lg:px-[130px] px-[32px] py-[40px]'>
+        <div className='flex flex-col container mx-auto lg:px-[130px] px-[32px] py-[40px]' id='faq'>
             <SectionTitle2 type={2} image={'dot'} />
             <div className="max-w-[926px] mt-[40px] w-full mx-auto content-inner flat-accordion">
                 {

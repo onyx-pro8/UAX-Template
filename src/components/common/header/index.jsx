@@ -31,7 +31,7 @@ export const Header = () => {
                         <nav>
                             <ul className='flex items-center'>
                                 {/* <li className='mr-[40px] lg:block hidden'><Link to="/">Home</Link></li> */}
-                                 <li
+                                <li
                                     className='mr-[40px]  py-[30px] lg:block hidden'
                                     onMouseEnter={() => setisOpenAbtus(true)}
                                     onMouseLeave={() => setisOpenAbtus(false)}
@@ -54,9 +54,9 @@ export const Header = () => {
                                                                 <div className="w-1/2 flex items-start box">
                                                                     <img src={`media/icons/${_itm.image}.png`} alt={_itm.image} className='mr-6' />
                                                                     <div className="flex flex-col">
-                                                                         <a href={_itm.link}>
-                                                                        <h4 className='text-[16px] leading-normal font-normal'>{_itm.title}</h4>
-                                                                        <p className='my-0 text-[14px] font-light leading-normal'>{_itm.content}</p>
+                                                                        <a href={_itm.link}>
+                                                                            <h4 className='text-[16px] leading-normal font-normal'>{_itm.title}</h4>
+                                                                            <p className='my-0 text-[14px] font-light leading-normal'>{_itm.content}</p>
                                                                         </a>
                                                                     </div>
                                                                 </div>
@@ -138,9 +138,9 @@ export const Header = () => {
                                                                 <div className="w-1/2 flex items-start box">
                                                                     <img src={`media/icons/${_itm.image}.png`} alt={_itm.image} className='mr-6' />
                                                                     <div className="flex flex-col">
-                                                                         <a href={_itm.link}>
-                                                                        <h4 className='text-[16px] leading-normal font-normal'>{_itm.title}</h4>
-                                                                        <p className='my-0 text-[14px] font-light leading-normal'>{_itm.content}</p>
+                                                                        <a href={_itm.link}>
+                                                                            <h4 className='text-[16px] leading-normal font-normal'>{_itm.title}</h4>
+                                                                            <p className='my-0 text-[14px] font-light leading-normal'>{_itm.content}</p>
                                                                         </a>
                                                                     </div>
                                                                 </div>
@@ -153,7 +153,7 @@ export const Header = () => {
                                         )}
                                     </AnimatePresence>
                                 </li>
-                                  <li
+                                <li
                                     className='mr-[40px]  py-[30px] lg:block hidden'
                                     onMouseEnter={() => setisMobileComOpen(true)}
                                     onMouseLeave={() => setisMobileComOpen(false)}
@@ -176,9 +176,9 @@ export const Header = () => {
                                                                 <div className="w-1/2 flex items-start box">
                                                                     <img src={`media/icons/${_itm.image}.png`} alt={_itm.image} className='mr-6' />
                                                                     <div className="flex flex-col">
-                                                                         <a href={_itm.link}>
-                                                                        <h4 className='text-[16px] leading-normal font-normal'>{_itm.title}</h4>
-                                                                        <p className='my-0 text-[14px] font-light leading-normal'>{_itm.content}</p>
+                                                                        <a href={_itm.link}>
+                                                                            <h4 className='text-[16px] leading-normal font-normal'>{_itm.title}</h4>
+                                                                            <p className='my-0 text-[14px] font-light leading-normal'>{_itm.content}</p>
                                                                         </a>
                                                                     </div>
                                                                 </div>
@@ -202,9 +202,10 @@ export const Header = () => {
                                     </a>
                                 </li> */}
                                 <li className='mr-[40px] lg:block hidden'>
-                                    <Link to="/faq">
+                                    {/* <Link to="/">
                                         FAQ
-                                    </Link>
+                                    </Link> */}
+                                    <a href="/#faq">FAQ</a>
                                 </li>
                                 {/* <li className='lg:block hidden'>
                                     <Link to="/whitepapper">
@@ -289,7 +290,7 @@ export const Header = () => {
                                                 className="header-link"
                                             >Roadmap</a>
                                         </li>
-                                         {/* <li className="menu-item">
+                                        {/* <li className="menu-item">
                                             <a
                                                 href="/podcasts"
                                                 className="header-link"
@@ -302,9 +303,9 @@ export const Header = () => {
                                                 className="header-link"
                                             >Presskit</a>
                                         </li> */}
-                                       
-                                       
-                                          <li className="menu-item">
+
+
+                                        <li className="menu-item">
                                             <a
                                                 href="/DAO"
                                                 className="header-link"
@@ -359,19 +360,19 @@ export const Header = () => {
                                                 className="header-link"
                                             >Github</a>
                                         </li>
-                                           <li className="menu-item">
+                                        <li className="menu-item">
                                             <a
                                                 href="/innovative"
                                                 className="header-link"
                                             >Technology</a>
                                         </li>
-                                           <li className="menu-item">
+                                        <li className="menu-item">
                                             <a
                                                 href="/DAO"
                                                 className="header-link"
                                             >DAO's</a>
                                         </li>
-                                          <li className="menu-item">
+                                        <li className="menu-item">
                                             <a
                                                 href="/staking"
                                                 className="header-link"
@@ -381,7 +382,7 @@ export const Header = () => {
                                 )}
                             </AnimatePresence>
 
-   <li
+                            <li
                                 className="menu-item menu-item-has-children"
                                 onClick={() => setisMobileComOpen(!isMobileComOpen)}
                             >
@@ -413,33 +414,33 @@ export const Header = () => {
                                                 className="header-link"
                                             >Usecases</a>
                                         </li> */}
-                                      
+
                                         {/* <li className="menu-item">
                                             <a
                                                 href="/roadmap"
                                                 className="header-link"
                                             >Roadmap</a>
                                         </li> */}
-                                         <li className="menu-item">
+                                        <li className="menu-item">
                                             <a
                                                 href="/podcasts"
                                                 className="header-link"
                                             >Podcast</a>
                                         </li>
-                                        
-                                         <li className="menu-item">
+
+                                        <li className="menu-item">
                                             <a
                                                 href="/presskit"
                                                 className="header-link"
                                             >Presskit</a>
                                         </li>
-                                           <li className="menu-item">
+                                        <li className="menu-item">
                                             <a
                                                 href="/governance"
                                                 className="header-link"
                                             >Governance</a>
                                         </li>
-                                          {/* <li className="menu-item">
+                                        {/* <li className="menu-item">
                                             <a
                                                 href="/governance"
                                                 className="header-link"
