@@ -329,6 +329,8 @@ header .main-nav {
 header .main-nav ul {
   background-color: var(--menu-color);
   padding: 0;
+  max-height: 450px;
+  overflow: auto;
   /* border-top: 1px solid rgba(0, 0, 0, 0.1); */
 }
 

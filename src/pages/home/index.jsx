@@ -5,7 +5,7 @@ import { Globe } from "../../components/layout/globe";
 import { Wallet } from "../../components/layout/wallet";
 import { WhatIs } from "../../components/layout/whatIs";
 import { Offering } from "../../components/layout/offering";
-import { Usecase } from "../../components/layout/usecase";
+import { Usecases } from "../../components/layout/usecase";
 import { Glance } from "../../components/layout/glance";
 import { FAQ } from "../../components/layout/FAQ";
 import { Join } from "../../components/layout/join";
@@ -22,8 +22,8 @@ export const Home = () => {
             <WhatIs />
             <Offering />
             <Network />
-            <Usecase />
-            <Glance />
+            {/* <Usecases /> */}
+            {/* <Glance /> */}
             <FAQ />
             < Partner />
             <Join type={true} />

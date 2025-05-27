@@ -1,18 +1,24 @@
 import React, { useState } from 'react';
 
+import { SectionTitle2 } from '../../common/sectionTitle2';
+
 import { datas } from '../../data';
 import './style.css';
 
-export const Usecase = () => {
+export const Usecases = () => {
 
     const [activeTab, setActiveTab] = useState(0);
 
     return (
         <div className='flex flex-col container mx-auto sm:px-[130px] px-[48px] sm:pt-[40px] pt-[20px] md:pb-[160px] pb-[60px] usecase'>
-            <h1 className='text-center sm:text-[45px] text-[32px] font-bold sm:mt-[40px] mt-[20px] sm:mb-[16px] mb-[10px]'>
+            {/* <h1 className='text-center sm:text-[45px] text-[32px] font-bold sm:mt-[40px] mt-[20px] sm:mb-[16px] mb-[10px]'>
                 <span className='text-[#CE1FEA]'>Uaxnetwork </span>
                 Usecases
-            </h1>
+            </h1> */}
+            <div className='w-full justify-center items-centerflex'>
+                {/* <SectionTitle1 type={3} /> */}
+                <SectionTitle2 type={10} image={'line'} />
+            </div>
             <ul className="flex flex-wrap menu-tab">
                 <li className={`${activeTab === 0 ? 'active' : ''}`} onClick={() => setActiveTab(0)}>
                     <div className="button">

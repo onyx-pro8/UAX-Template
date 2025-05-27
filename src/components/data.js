@@ -228,6 +228,20 @@ export const datas = {
                     Updates
                 </h1>,
         },
+        {
+            title:
+                <h1 className='text-center text-[32px] mt-0 mb-12'>
+                    <span className='text-[#CE1FEA]'>Tokenomics </span>
+                    at a
+                    <span className='text-[#7D4689]'> Glance</span>
+                </h1>,
+        },
+        {
+            title:
+                <h1 className='text-center text-[32px] mt-0 mb-12'>
+                    Usecases
+                </h1>,
+        },
     ],
     glance: [
         {
@@ -499,6 +513,21 @@ export const datas = {
             content: `This privacy notice explains how we at UAX.NETWORK (referred to as "we," "us," or "our") collects, uses, 
                         and utilize your personal information when you use our website.`
         },
+        {
+            title:
+                <h1 className="text-center text-[50px] font-semibold mb-4">
+                    Tokenomics
+                </h1>,
+            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt`
+        },
+        {
+            title:
+                <h1 className="text-center text-[50px] font-semibold mb-4">
+                    UAXNetwork
+                    <span className="text-[#CE1FEA]"> Usecases</span>
+                </h1>,
+            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt `
+        },
     ],
     times: [
         {
@@ -747,7 +776,7 @@ export const datas = {
             type: 'LOGO',
             size: '144',
             description: `Lorem ipsum dolor sit amet, consec tetur adipiscing elit,
-                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
         },
         {
             imgDark: 'uax favicon.png',
@@ -756,7 +785,7 @@ export const datas = {
             type: 'UAX Symbol',
             size: '212',
             description: `Lorem ipsum dolor sit amet, consec tetur adipiscing elit,
-                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
         },
         {
             imgDark: 'logo/dark.png',
@@ -765,7 +794,7 @@ export const datas = {
             type: 'LOGO',
             size: '144',
             description: `Lorem ipsum dolor sit amet, consec tetur adipiscing elit,
-                           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
         },
     ],
     updates: [
@@ -927,12 +956,14 @@ export const datas = {
         {
             image: 'usecases',
             title: 'Usecases',
-            content: 'Some content here'
+            content: 'Some content here',
+            link: '/usecases'
         },
         {
             image: 'tokenomics',
             title: 'Tokenomics',
-            content: 'Some content here'
+            content: 'Some content here',
+            link: '/tokenomics'
         },
         {
             image: 'roadmap',
@@ -952,7 +983,7 @@ export const datas = {
             content: 'Some content here',
             link: '/metrics'
         },
-         {
+        {
             image: 'roadmap',
             title: 'Technology',
             content: 'Some content here',
@@ -964,14 +995,14 @@ export const datas = {
             content: 'Some content here',
             link: '/DAO'
         },
-         {
+        {
             image: 'roadmap',
             title: "Staking",
             content: 'Some content here',
             link: '/staking'
         },
     ],
-       aboutus_header: [
+    aboutus_header: [
         {
             image: 'explore',
             title: 'About Us',
@@ -1000,23 +1031,23 @@ export const datas = {
         //     content: 'Some content here',
         //     link: '/podcasts'
         // },
-       
+
         //  {
         //     image: 'roadmap',
         //     title: 'Presskit',
         //     content: 'Some content here',
         //     link: '/presskit'
         // },
-        
-         {
+
+        {
             image: 'roadmap',
             title: "Whitepaper",
             content: 'Some content here',
             // link: ''
         },
-        
+
     ],
-     news_header: [
+    news_header: [
         // {
         //     image: 'explore',
         //     title: 'Explorer',
@@ -1040,14 +1071,14 @@ export const datas = {
             content: 'Some content here',
             link: '/podcasts'
         },
-       
-         {
+
+        {
             image: 'roadmap',
             title: 'Presskit',
             content: 'Some content here',
             link: '/presskit'
         },
-         {
+        {
             image: 'roadmap',
             title: 'Governance',
             content: 'Some content here',
@@ -1064,7 +1095,7 @@ export const datas = {
         //     title: "Whitepaper",
         //     content: 'Some content here',
         // },
-        
+
     ],
     footer: [
         {
@@ -1099,7 +1130,7 @@ export const datas = {
                     content: 'Roadmap'
                 },
                 {
-                    path: '/',
+                    path: '/tokenomics',
                     content: 'Tokenomics'
                 },
                 {

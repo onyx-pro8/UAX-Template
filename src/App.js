@@ -19,6 +19,8 @@ import { Staking } from './pages/staking';
 import { Terms } from './pages/terms';
 import { Privacy } from './pages/privacy';
 import { Cookie } from './pages/cookie';
+import { Tokenomics } from './pages/tokenomics';
+import { Usecase } from './pages/usecase';
 
 import ScrollToTopButton from './components/common/scrollTop';
 import Theme from './components/common/theme';
@@ -47,6 +49,8 @@ function App() {
           <Route path="/terms" element={<Terms />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/cookie" element={<Cookie />} />
+          <Route path="/tokenomics" element={<Tokenomics />} />
+          <Route path="/usecases" element={<Usecase />} />
         </Routes>
         <Theme />
         <ScrollToTopButton />

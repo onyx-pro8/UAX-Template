@@ -75,7 +75,7 @@ export const Footer = () => {
                             <ul className='pt-[20px]'>
                                 <li><Link to="/presskit">Presskit</Link></li>
                                 <li><Link to="/roadmap">Roadmap</Link></li>
-                                <li><Link to="#">Tokenomics</Link></li>
+                                <li><Link to="/tokenomics">Tokenomics</Link></li>
                                 <li><Link to="#">Whitepaper</Link></li>
                                 <li><Link to="/podcasts">Podcast</Link></li>
                             </ul>
