@@ -130,12 +130,12 @@ export const Header = () => {
                                                 exit={{ opacity: 0, y: 20 }}
                                                 transition={{ duration: 0.4 }}
                                             >
-                                                <div className='flex flex-col'>
+                                                <div className='flex flex-col w-[740px]'>
                                                     <p className='text-[12px] font-extralight m-0'>Learn more about uax</p>
                                                     <div className="flex flex-wrap boxes">
                                                         {
                                                             datas.header.map((_itm, _idx) => (
-                                                                <div className="w-1/2 flex items-start box">
+                                                                <div className="w-1/3 flex px-2 items-start box">
                                                                     <img src={`media/icons/${_itm.image}.png`} alt={_itm.image} className='mr-6' />
                                                                     <div className="flex flex-col">
                                                                         <a href={_itm.link}>
